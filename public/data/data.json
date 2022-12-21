@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "category": "ring",
+    "brand": "텐타클",
+    "itemName": "델마르 실버 반지",
+    "isToday": true,
+    "price": 65700,
+    "like": 15000,
+    "image": "/img/ring/ring1.jpeg"
+  },
+  {
+    "id": 2,
+    "category": "ring",
+    "brand": "위아몬즈",
+    "itemName": "실버 볼하트 위아몬즈 반지",
+    "isToday": true,
+    "price": 31000,
+    "like": 8000,
+    "image": "/img/ring/ring2.jpeg"
+  },
+  {
+    "id": 3,
+    "category": "ring",
+    "brand": "위아몬즈",
+    "itemName": "실버 웨이브 위아몬즈 반지",
+    "isToday": 40000,
+    "like": 9700,
+    "image": "/img/ring/ring3.jpeg"
+  },
+  {
+    "id": 4,
+    "category": "ring",
+    "brand": "조슈아",
+    "itemName": "Heart angel ring",
+    "isToday": true,
+    "price": 58000,
+    "like": 11000,
+    "image": "/img/ring/ring4.jpeg"
+  },
+  {
+    "id": 5,
+    "category": "ring",
+    "brand": "제네럴 컬렉션",
+    "itemName": "Hold Ring",
+    "isToday": false,
+    "price": 87000,
+    "like": "1200",
+    "image": "/img/ring/ring5.jpeg"
+  },
+  {
+    "id": 6,
+    "category": "ring",
+    "brand": "하이메",
+    "itemName": "more baby`s breath ring",
+    "isToday": true,
+    "price": 89000,
+    "like": 15000,
+    "image": "/img/ring/ring6.jpeg"
+  },
+  {
+    "id": 7,
+    "category": "neck",
+    "brand": "딥블로우",
+    "itemName": "your necklace 이니셜 목걸이",
+    "isToday": true,
+    "price": 50000,
+    "like": 15000,
+    "image": "/img/neck/neck1.jpeg"
+  },
+  {
+    "id": 8,
+    "category": "neck",
+    "brand": "딥블로우",
+    "itemName": "your necklace 이니셜 목걸이",
+    "isToday": true,
+    "price": 50000,
+    "like": 15000,
+    "image": "/img/neck/neck2.jpeg"
+  },
+  {
+    "id": 9,
+    "category": "neck",
+    "brand": "a14",
+    "itemName": "14K 그린오닉스 데일리 목걸이",
+    "isToday": false,
+    "price": 200000,
+    "like": 5000,
+    "image": "/img/neck/neck3.jpeg"
+  },
+  {
+    "id": 10,
+    "category": "neck",
+    "brand": "프리모떼",
+    "itemName": "TWINKLE CHAIN NECKLACE",
+    "isToday": true,
+    "price": 64000,
+    "like": 8000,
+    "image": "/img/neck/neck4.jpeg"
+  },
+  {
+    "id": 11,
+    "category": "neck",
+    "brand": "위아몬즈",
+    "itemName": "실버 플랫 하트 토글바 위아몬즈 목걸이",
+    "isToday": false,
+    "price": 70000,
+    "like": 4000,
+    "image": "/img/neck/neck5.jpeg"
+  },
+  {
+    "id": 12,
+    "category": "neck",
+    "brand": "어나더셀",
+    "itemName": "HEART CLOVER PENDANT",
+    "isToday": false,
+    "price": 70000,
+    "like": 2100,
+    "image": "/img/neck/neck6.jpeg"
+  }
+]
