@@ -17,18 +17,6 @@ interface Props extends HTMLAttributes<HTMLDivElement>, Styles {
   name?: string;
 }
 
-interface InputProps {
-  className?: string;
-  type: string;
-  value: string;
-  placeholder?: string;
-  warningText?: string;
-  disabled?: boolean;
-  onChange?: React.ChangeEventHandler<HTMLInputElement>;
-  onClick?: (e: React.MouseEvent<HTMLInputElement>) => void;
-  name?: string;
-}
-
 function Input({
   name,
   onClick,
@@ -37,9 +25,10 @@ function Input({
   value,
   type,
   placeholder = '',
+  ...rest
 }: Props) {
   return (
-    <StyledInput className={className}>
+    <StyledInput className={className} {...rest}>
       <input
         placeholder={placeholder}
         type={type}
