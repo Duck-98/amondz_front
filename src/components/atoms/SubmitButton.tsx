@@ -7,20 +7,20 @@ interface Styles {
   borderRadius?: number;
 }
 
-interface Props extends HTMLAttributes<HTMLButtonElement>, Styles {
+interface Props extends HTMLAttributes<HTMLInputElement>, Styles {
   children: ReactNode;
   className?: string;
 }
 
-function Button({ children, className, ...rest }: Props) {
+function SubmitButton({ children, className, ...rest }: Props) {
   return (
-    <StyledButton className={className} {...rest}>
+    <StyledButton className={className} type="submit" {...rest}>
       {children}
     </StyledButton>
   );
 }
 
-const StyledButton = styled.button<Partial<Props>>`
+const StyledButton = styled.input<Partial<Props>>`
   all: unset;
   display: inline-flex;
   justify-content: center;
@@ -31,10 +31,9 @@ const StyledButton = styled.button<Partial<Props>>`
   border-radius: ${({ borderRadius = 10 }) => borderRadius + 'px'};
   color: #ffffff;
   background-color: #000000;
-  /* font-family: NotoSansKRBold; */
   font-weight: normal;
   font-style: normal;
   margin-top: 24px;
 `;
 
-export default Button;
+export default SubmitButton;
